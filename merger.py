@@ -27,7 +27,7 @@ if uploaded_files:
         # Nếu không phải file đầu tiên, bỏ dòng tiêu đề (giả sử là dòng đầu)
         if i > 0:
             df.columns = all_dfs[0].columns  # đảm bảo cột giống nhau
-            df = df[1:]  # bỏ dòng đầu
+            df = df[2:]  # bỏ dòng đầu
 
         all_dfs.append(df)
 
